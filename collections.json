@@ -14,7 +14,7 @@
       ]
     },
     {
-      "connectionName": "test",
+      "connectionName": "Test",
       "connectionString": "mongodb://root:example@mongodb-test_mongo_1:27017/?authSource=admin&authMechanism=SCRAM-SHA-256",
       "database":  "test",
       "collections": [
