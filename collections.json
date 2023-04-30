@@ -1,0 +1,27 @@
+{
+  "connections": [
+    {
+      "connectionName": "KUGA",
+      "connectionString": "mongodb://root:example@mongodb-test_mongo_1:27017/?authSource=admin&authMechanism=SCRAM-SHA-256",
+      "database":  "KUGA",
+      "collections": [
+        {
+          "collectionName": "anliegen"
+        },
+        {
+          "collectionName": "test"
+        }
+      ]
+    },
+    {
+      "connectionName": "test",
+      "connectionString": "mongodb://root:example@mongodb-test_mongo_1:27017/?authSource=admin&authMechanism=SCRAM-SHA-256",
+      "database":  "test",
+      "collections": [
+        {
+          "collectionName": "personen"
+        }
+      ]
+    }
+  ]
+}
