@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file dockerfile --tag rzp-reset:$(date +%s)
+      run: docker build . --file dockerfile --tag rzp-reset:$(date)
     - name: Save Docker image
-      run: docker save rzp-reset -o rzp-reset.tar
+      run: docker save rzp-reset:$(date) -o rzp-reset.tar
